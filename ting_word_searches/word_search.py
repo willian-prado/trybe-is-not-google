@@ -12,6 +12,23 @@ def find_word_occurrence(word, file, include_content):
     return occurrences
 
 
+def check_word(word, instance, include_content):
+    matches = []
+
+    for index in range(len(instance)):
+        file = instance.search(index)
+        match = {
+            "palavra": word,
+            "arquivo": file["nome_do_arquivo"],
+            "ocorrencias": find_word_occurrence(word, file, include_content),
+        }
+
+        if len(match["ocorrencias"]) > 0:
+            matches.append(match)
+
+    return matches
+
+
 def exists_word(word, instance):
     """Aqui irá sua implementação"""
 
