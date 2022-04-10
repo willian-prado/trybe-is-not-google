@@ -20,3 +20,8 @@ class Queue:
         if index < 0 or index >= len(self._data):
             raise IndexError
         return self._data[index]
+
+    def search_by_filename(self, filename):
+        for item in self._data:
+            if item["nome_do_arquivo"] == filename:
+                return True
