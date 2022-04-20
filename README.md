@@ -21,7 +21,7 @@ Sendo assim o programa deverá possuir dois módulos:
 
 - Manipular Pilhas;
 - Manipular Deque;
-- Manipular Nó & Listas ligadas;
+- Manipular Nós & Listas ligadas;
 
 **Tecnologia utilizada**
 
