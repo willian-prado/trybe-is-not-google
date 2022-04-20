@@ -1,6 +1,6 @@
 ## Projeto TING (Trybe Is Not Google)
 
-> Sexto e último projeto do módulo de Ciência da Computação do curso de desenvolvimento web da Trybe.
+> Sexto e último projeto do módulo de Ciência da Computação do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
@@ -153,3 +153,7 @@ Acima de tudo,
 - Caso a palavra não seja encontrada em nenhum arquivo, deve-se retornar uma lista vazia.
 
 - A fila não deve ser modificada durante a busca. Ela deve permanecer com os mesmos arquivos processados antes e depois da busca!
+
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
